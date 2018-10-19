@@ -8,7 +8,7 @@ import FusionCharts from 'fusioncharts/core';
 // Load Charts module
 import Pie3d from "fusioncharts/viz/pie3d";
 import Pareto2d from "fusioncharts/viz/pareto2d";
-import Heatmap from "fusioncharts/viz/Heatmap";
+import Heatmap from "fusioncharts/viz/heatmap";
 // Load fusion theme
 import FusionTheme from 'fusioncharts/themes/es/fusioncharts.theme.fusion';
 
