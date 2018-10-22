@@ -3,4 +3,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.chartContainer2 {
+    min-width: 1000px;
+    margin-bottom: 100px;
 }

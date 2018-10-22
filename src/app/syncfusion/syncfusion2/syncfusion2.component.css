@@ -1,0 +1,19 @@
+#chartcontainer_Series_0_Connector_ {
+    stroke-dasharray: 10px 10px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    -webkit-animation: dash 1s linear infinite;
+    animation: dash 1s linear infinite;
+}
+
+@-webkit-keyframes dash {
+    100% {
+        stroke-dashoffset: -20px;
+    }
+}
+
+@keyframes dash {
+    100% {
+        stroke-dashoffset: -20px;
+    }
+}
