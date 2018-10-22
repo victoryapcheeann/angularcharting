@@ -22,15 +22,13 @@ import { Fusionchart3Component } from './fusionchart/fusionchart3/fusionchart3.c
 
 import { SyncfusionModule } from './syncfusion/syncfusion.module';
 import { AmChartModule } from './amchart/amchart.module';
-import { Amchart2Component } from './amchart2/amchart2.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     Fusionchart1Component,
     Fusionchart2Component,
-    Fusionchart3Component,
-    Amchart2Component
+    Fusionchart3Component
   ],
   imports: [
     BrowserModule,
