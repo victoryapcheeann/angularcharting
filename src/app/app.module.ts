@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { FusionChartsModule } from 'angular-fusioncharts';
-import { AmChartsModule } from "@amcharts/amcharts3-angular";
 
+//Fusion Chart Imports
+import { FusionChartsModule } from 'angular-fusioncharts';
 // Load FusionCharts
 import FusionCharts from 'fusioncharts/core';
 // Load Charts module
@@ -21,20 +21,22 @@ import { Fusionchart2Component } from './fusionchart/fusionchart2/fusionchart2.c
 import { Fusionchart3Component } from './fusionchart/fusionchart3/fusionchart3.component';
 
 import { SyncfusionModule } from './syncfusion/syncfusion.module';
-
+import { AmChartModule } from './amchart/amchart.module';
+import { Amchart2Component } from './amchart2/amchart2.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     Fusionchart1Component,
     Fusionchart2Component,
-    Fusionchart3Component
+    Fusionchart3Component,
+    Amchart2Component
   ],
   imports: [
     BrowserModule,
     FusionChartsModule,
-    AmChartsModule,
-    SyncfusionModule
+    SyncfusionModule,
+    AmChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
